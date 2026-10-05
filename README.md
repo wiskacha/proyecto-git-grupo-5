@@ -19,3 +19,5 @@ Sitio web de la veterinaria "El Ispi Feliz", un espacio dedicado al cuidado y bi
 ## Funcionalidades
 
 - **Menú Interactivo con Scroll:** Header flotante con efecto de cristal difuso (_backdrop-filter_) al deslizar la página.
+- **Formulario de Contacto:** Procesamiento e interacción dinámica para confirmación de consultas y citas sin recargar la página.
+- **Diseño Adaptativo (Responsive Design):** Maquetación fluida ajustada a dispositivos móviles y escritorio.
