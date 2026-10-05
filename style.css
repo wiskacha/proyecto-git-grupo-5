@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5faf7;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* ENCABEZADO */
+.encabezado {
+    background-color: #2e7d5b;
+    color: white;
+    padding: 20px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 26px;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
+
+/* INICIO */
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background-color: #dff3e8;
+}
+
+.hero h2 {
+    font-size: 40px;
+    color: #246b4a;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+/* BOTONES */
+.btn {
+    display: inline-block;
+    background-color: #e88b3a;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #cf7024;
+}
+
+/* SECCIONES */
+section:not(.hero) {
+    padding: 60px 8%;
+}
+
+section h2 {
+    text-align: center;
+    color: #246b4a;
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+
+/* SERVICIOS */
+.tarjetas {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.tarjeta {
+    background-color: white;
+    width: 280px;
+    padding: 25px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.tarjeta h3 {
+    color: #2e7d5b;
+    margin-bottom: 10px;
+}
+
+/* NOSOTROS */
+#nosotros {
+    background-color: #eaf6ef;
+    text-align: center;
+}
+
+#nosotros p {
+    max-width: 800px;
+    margin: auto;
+}
+
+/* FORMULARIO */
+#formulario {
+    max-width: 600px;
+    margin: auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+#formulario label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+#formulario input,
+#formulario textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+#formulario textarea {
+    resize: vertical;
+}
+
+#formulario .btn {
+    margin-top: 20px;
+}
+
+/* PIE DE PÁGINA */
+.pie {
+    background-color: #246b4a;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* CELULARES */
+@media (max-width: 700px) {
+    .encabezado {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .menu ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .hero h2 {
+        font-size: 30px;
+    }
+
+    .tarjeta {
+        width: 100%;
+    }
+}
