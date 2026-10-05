@@ -1,0 +1,17 @@
+/* ==========================================
+   ESTILOS ADICIONALES Y UTILIDADES (Integrante C)
+   ========================================== */
+
+.encabezado {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    transition: all 0.3s ease;
+}
+
+.encabezado.scrolled {
+    background-color: rgba(46, 125, 91, 0.85); 
+    backdrop-filter: blur(8px);                
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    padding: 12px 8%;
+}
